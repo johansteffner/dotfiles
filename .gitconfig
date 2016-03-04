@@ -1,0 +1,19 @@
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+[merge]
+    tool = opendiff
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+[push]
+    default = tracking
+[credential]
+    helper = osxkeychain

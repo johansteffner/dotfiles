@@ -1,0 +1,15 @@
+.DS_Store
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*.sublime-workspace
+
+bower_components
+node_modules
+npm-debug.log
+.DS_Store
+Thumbs.db
+.sass-cache
+composer.phar
+composer.lock
