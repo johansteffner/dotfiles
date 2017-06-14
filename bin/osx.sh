@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 # Reduce transparency
 defaults write com.apple.universalaccess reduceTransparency -int 1
 

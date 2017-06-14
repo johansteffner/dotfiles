@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 # Make sure homebrew is installed first
 if [[ ! "$(type -P brew)" ]]; then
     echo "Installing Homebrew"
