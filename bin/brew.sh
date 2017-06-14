@@ -9,40 +9,86 @@ fi
 brew doctor
 brew update
 
+# cli
 
-# misc cli utilities
-brew install bash-completion
+## shell
+
+brew install zsh
+
+## version control
+
 brew install git
-brew install imagemagick
-brew install pyenv
+
+## internet utils
+
 brew install wget
 brew install curl
 
+## image utils
+
+brew install imagemagick
+brew install graphicsmagick
+brew install libmagic
+
+## db
+
+brew install postgresql
+brew install ephemeralpg
+
+## misc cli utilities
+
+brew install ghostscript
+brew install ansible
+brew install openssl
+brew install python
+brew install python3
+brew install the_silver_searcher
+
+## aws utilities
+
+brew install terraform
+brew install awscli
+
+# brew cask
+
 brew tap caskroom/cask
 
-# browsing
+## browsing
+
 brew cask install google-chrome
 
-# entertainment
+## entertainment
+
 brew cask install spotify
+brew cask install aerial
 
-# communication
+## communication
+
 brew cask install skype
+brew cask install caprine
+brew cask install slack
 
-# security
+## security
+
 brew cask install 1password
 
-# devtools
+## devtools
+
 brew cask install zeplin
-brew cask install sequel-pro
 brew cask install postico
 brew cask install vmware-fusion
 brew cask install virtualbox
+brew cask install docker-toolbox
+brew cask install atom
+brew cask install visual-studio-code
+brew cask install github-desktop
 
-# other
+## other
+
 brew cask install flux
 brew cask install spectacle
-
+brew cask install alfred
+brew cask install dropbox
+brew cask install google-drive
 
 brew cleanup
-brew cask cleanup
