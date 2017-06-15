@@ -77,14 +77,10 @@ brew cask install 1password
 
 ## devtools
 
-brew cask install zeplin
 brew cask install postico
-brew cask install vmware-fusion
-brew cask install virtualbox
+brew cask install docker
 brew cask install docker-toolbox
-brew cask install atom
 brew cask install visual-studio-code
-brew cask install github-desktop
 
 ## other
 
