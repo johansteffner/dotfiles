@@ -16,6 +16,7 @@ brew update
 ## shell
 
 brew install zsh
+brew install zsh-completions
 
 ## version control
 
