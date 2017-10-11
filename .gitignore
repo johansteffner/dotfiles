@@ -8,8 +8,10 @@
 bower_components
 node_modules
 npm-debug.log
-.DS_Store
 Thumbs.db
 .sass-cache
 composer.phar
 composer.lock
+.vscode
+todo.md
+

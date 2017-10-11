@@ -78,9 +78,12 @@ brew cask install 1password
 ## devtools
 
 brew cask install postico
+brew cask install vagrant
 brew cask install docker
 brew cask install docker-toolbox
 brew cask install visual-studio-code
+brew cask install graphiql
+brew cask install graphql-ide
 
 ## other
 
@@ -89,5 +92,6 @@ brew cask install spectacle
 brew cask install alfred
 brew cask install dropbox
 brew cask install google-drive
+brew cask install kap
 
 brew cleanup
