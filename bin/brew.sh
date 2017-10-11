@@ -91,7 +91,6 @@ brew cask install flux
 brew cask install spectacle
 brew cask install alfred
 brew cask install dropbox
-brew cask install google-drive
 brew cask install kap
 
 brew cleanup
