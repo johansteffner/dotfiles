@@ -14,7 +14,9 @@
     co = checkout
     br = branch
 [push]
-	default = current
-	followTags = true
+    default = current
+    followTags = true
+[fetch]
+	prune = true
 [credential]
     helper = osxkeychain
